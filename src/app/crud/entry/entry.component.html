@@ -1,0 +1,50 @@
+<div class="container">
+  
+      <div class="example-container">
+      
+        <form [formGroup]="profileForm">
+          <mat-form-field class="example-container">
+            <label>FirstName</label>
+            <input matInput formControlName="firstName">
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <label>LastName</label>
+            <input matInput formControlName="lastName">
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container"><label>Email</label>
+            <input matInput formControlName="email">
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <label>Discription</label>
+            <textarea matInput formControlName="address"></textarea>
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <mat-select placeholder="Select" formControlName="select">
+              <mat-option value="option">Option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <label>City</label>
+            <input matInput formControlName="city">
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <label>state</label>
+            <input matInput formControlName="state">
+          </mat-form-field>
+          <br>
+          <mat-form-field class="example-container">
+            <label>Zip</label>
+            <input matInput formControlName="zip">
+          </mat-form-field>
+        </form>
+        <br>
+        <button mat-raised-button color="primary" (click)="onClick()" class="example-button-row button">Primary</button>
+      </div>
+  
+</div>
