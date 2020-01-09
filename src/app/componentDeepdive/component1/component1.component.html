@@ -1,2 +1,10 @@
 <p>component1 works!</p>
-<app-component2></app-component2>
+<!-- <p>{{ name | lowercase }}</p> -->
+
+
+
+
+
+<h3>{{message}}</h3>
+
+<app-component2 (childEvent)="message=$event" [parentData]="name"></app-component2>

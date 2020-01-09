@@ -2,7 +2,7 @@
   
       <div class="example-container">
       
-        <form [formGroup]="profileForm">
+        <form [formGroup]="profileForm" (click)="onClick()">
           <mat-form-field class="example-container">
             <label>FirstName</label>
             <input matInput formControlName="firstName">
@@ -44,7 +44,7 @@
           </mat-form-field>
         </form>
         <br>
-        <button mat-raised-button color="primary" (click)="onClick()" class="example-button-row button">Primary</button>
+        <button mat-raised-button color="primary"  class="example-button-row button">Primary</button>
       </div>
   
 </div>

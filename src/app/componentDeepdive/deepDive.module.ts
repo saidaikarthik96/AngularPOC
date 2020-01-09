@@ -4,7 +4,7 @@ import{NgModule} from'@angular/core';
 import{Routes,RouterModule} from'@angular/router';
 
 const routes: Routes = [
-    {path:'component1',component:Component1Component},
+    {path:'component1',component:Component1Component},  
     // {path:'component2',component:Component2Component}
    ];
    @NgModule({

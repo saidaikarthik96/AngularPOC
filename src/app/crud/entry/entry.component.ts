@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validator } from '@angular/forms';
+import { FormBuilder, FormGroup, Validator,ReactiveFormsModule } from '@angular/forms';
 import { state } from '@angular/animations';
 @Component({
   selector: 'app-entry',
